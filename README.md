@@ -16,7 +16,7 @@ Eger degistirilmek istenirse application servera datasource tanimlanmasi yeterli
 
 Wildfly 10 ayari yapildiktn sonra run diyerek herhangi bir ayara gerek olmaksizin proje run edilebilir.
 
-java ee apisi application server tarafindan saglandigi icin asagidaki sekilde tanimlamak yeterli oldu.
+java ee apisi application server tarafindan saglandigi icin asagidaki sekilde tanimlamak yeterli oldu...
 
    <dependency>
             <groupId>javax</groupId>
