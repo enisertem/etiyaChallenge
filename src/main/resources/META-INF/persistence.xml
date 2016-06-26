@@ -8,7 +8,7 @@
         <class>com.enis.domain.Lesson</class>
         <properties>
             <!--<property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>-->
-          <property name="hibernate.hbm2ddl.auto" value="update"/>
+          <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
             <property name="hibernate.show_sql" value="false"/>
             <property name="hibernate.format_sql" value="false"/>
         </properties>
