@@ -105,6 +105,18 @@
 
     chekli();
 </script>
+<br>
+<hr>
+<a href="allStudentSave">Ogrenci liste sayfası</a>
+<hr>
+<a href="allLessons">Dersler liste sayfası</a>
+<hr>
+<a href="addLesson.jsp">Ders ekle</a>
+<hr>
+<a href="addStudent.jsp">Ogrenci ekle</a>
+<hr>
+
+
 
 </body>
 </html>
