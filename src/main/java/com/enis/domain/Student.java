@@ -16,7 +16,7 @@ public class Student implements Serializable{
     private String name;
     private String surName;
     private Integer schoollNo;
-    @OneToMany(cascade = CascadeType.ALL,orphanRemoval = false,fetch = FetchType.EAGER)
+    @ManyToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
     private List<Lesson> Lessons;
 
     public Student() {

@@ -49,7 +49,7 @@ public class StudentsLessonsSubmitServlet extends HttpServlet {
 
         List<Lesson> slist=new ArrayList<>();
         for (String s : selectedValues.split("-")) {
-          if(!s.equals("-")) {
+          if(!s.equals("-") && !s.isEmpty()) {
            slist.add(service.findLesson(Long.valueOf(s)));
           }
         }
